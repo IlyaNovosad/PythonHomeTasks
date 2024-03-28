@@ -10,7 +10,7 @@ def find_note():
 
 
 def find_note_by_id():
-    word = View.input_data(Text.input_search_id)
+    word = View.input_data(Text.input_search_data)
     result = Model.find_note(word)
     View.show_notes(result, Text.note_not_found(word))
 

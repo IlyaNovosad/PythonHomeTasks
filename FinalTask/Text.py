@@ -28,7 +28,7 @@ def new_note_added_successful(notes: str) -> str:
 input_search_date = 'Введите дату для поиска в формате ДД.ММ.ГГГГ: '
 
 
-input_search_id = 'Введите ID для поиска: '
+input_search_data = 'Введите значение для поиска: '
 
 
 def note_not_found(notes_id: str) -> str:
